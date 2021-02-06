@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="code.js"></script>
+   
+</head>
+<div class="pop-up">
+    <div class="sub">
+        <h2>Parabéns!!</h2><img src="image/fireworks.png" class="icon-popup"/>
+    </div>
+    <div>
+        <h1>Letra <span id="letterWins"><img class="finalPic"/></span> ganhou!!</h1>
+    </div>
+    <button class="btnPlayAgain">Play Again</button>
+</div>
+<body>
+    <h1 class="title">Jogo da Velha #</h1>    
+
+    <h1>Vez <span id="spanTime"></span></h1>
+    <section class="containers">
+        
+        <div class="container">
+            <button class="box0 box"> <img  class="pic"/> </button>
+            <button class="box1 box"> <img  class="pic"/> </button>
+            <button class="box2 box"> <img  class="pic"/> </button>
+        </div>
+        <div class="container">
+            <button class="box3 box"> <img  class="pic"/> </button>
+            <button class="box4 box"> <img  class="pic"/> </button>
+            <button class="box5 box"><img  class="pic"/></button>
+        </div>
+        <div class="container">
+            <button class="box6 box"><img  class="pic"/></button>
+            <button class="box7 box"><img  class="pic"/></button>
+            <button class="box8 box"><img  class="pic"/></button>
+        </div>
+    </section>
+    <button class="btnPlayAgain btnVelha" onclick="document.location.reload()">Deu Velha</button>
+</body>
+</html>
